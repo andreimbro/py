@@ -69,7 +69,7 @@ class Transation:
 
 
 
-# #prova di transazione di 5 value
-# t=Transation(Cerberus,ciao.identity,5.0)
-# signature = t.sign_transaction()
-# print(signature)
+#prova di transazione di 5 value
+t=Transation(Cerberus,ciao.identity,5.0)
+signature = t.sign_transaction()
+print(signature)
