@@ -67,8 +67,6 @@ class Transation:
         return binascii.hexlify(signer.sign(h)).decode('ascii')
 
 
-
-
 #prova di transazione di 5 value
 t=Transation(Cerberus,ciao.identity,5.0)
 signature = t.sign_transaction()
